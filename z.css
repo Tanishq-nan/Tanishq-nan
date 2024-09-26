@@ -1,0 +1,177 @@
+.back{
+    background-color: #fff;
+}
+
+.structure{
+ 
+    display:flex;
+    justify-content:space-btween;
+
+}
+
+.navbar{
+    height:70px;
+    top:0;
+    width:100%;
+    z-index:10;
+    position:fixed;
+    background-color:#fff;
+    box-shadow:2px 1px 2px #eee;
+    box-sizing:border-box;
+    perspective: 600px;
+}
+
+.fonting{
+    font-size: 16px;
+    font-family: "inter",serif;
+    width:100%;
+    line-height: 1.7;
+    font-weight:400;
+
+}
+
+.container{
+
+    padding:0;
+    position: relative;
+    width:1100px;
+    max-width:100%;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    box-sizing:border-box;
+
+}
+
+/* .coloumn:first-child{ */
+    /* margin-left: 0; */
+/* }  */
+
+.positionig{
+    position:relative;
+}
+
+.coloumn{
+  box-sizing:border-bax;
+  flex: 0 1 auto;
+  margin-left:0;
+}
+
+.five{
+    flex-basis:39.3333333333%;
+    width:39.3333333333%;
+
+}
+
+.logo-set{
+    max-height:17px;
+    vertical-align: middle;
+    position: relative;
+    top: 25px;
+    max-width:100%;
+    cursor:pointer;
+    min-width: 350px;
+}
+
+.six{
+    
+    flex-basis:56.6666666667%;
+    width:56.6666666667%;
+
+}
+
+.links{
+    list-style-type:none;
+    text-align:right;
+    margin:0;
+    padding:0;
+}
+
+.navbar-right{
+   color:#666;
+   font-size: .9rem;
+   transition:color .3s;
+   display:inline-block;    
+   padding:20px;
+   box-sizing: border-box;
+   font: weight 400;
+   cursor:pointer;
+
+}
+.body{
+    font-family: "inter",serif;
+    font-size:16px;
+    line-height:1.7;
+    color: #424242;
+    font-family: "inter" serif;
+}
+
+.main{
+    display:block;
+    unicode-bidi: isolate;
+
+}
+
+.homepage{
+    padding-top: 7px;
+    margin-top: 18vh;
+}
+
+.text-center{
+    text-align: center;
+   
+}
+
+.container-img{
+    position:relative;
+    width:1100px;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.landing-img{
+    margin-bottom: 60px;
+    max-height:45vh;
+    max-width: 100%;
+    border-style:none;
+
+}
+
+.h1{
+    font-size:2em;
+    margin:.2em 0;
+}
+.h5{
+    display:block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+.hompage-button{
+    background-color:#387ed1;
+    color: #fff;
+    border:1px solid rgba(0, 0, 0, 0) !important;
+    border-radius: 3px;
+}
+
+.button{
+    display: inline-block;
+    padding:10px 30px;
+    color:#fff;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius:3px;
+    border:1px solid #bbb;
+    cursor:pointer;
+    box-sizing:border-box;
+
+
+}
